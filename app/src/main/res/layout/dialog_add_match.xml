@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Spinner for Team A -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Team A:"/>
+        <Spinner
+            android:id="@+id/spinnerTeamA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Spinner for Team B -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Select Team B:"/>
+        <Spinner
+            android:id="@+id/spinnerTeamB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- EditText for Score A -->
+        <EditText
+            android:id="@+id/etScoreA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Score for Team A"
+            android:layout_marginTop="8dp"/>
+
+        <!-- EditText for Score B -->
+        <EditText
+            android:id="@+id/etScoreB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Score for Team B"
+            android:layout_marginTop="8dp"/>
+
+        <!-- EditText for Date -->
+        <EditText
+            android:id="@+id/etDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date (YYYY-MM-DD)"
+            android:inputType="text"
+            android:layout_marginTop="8dp"/>
+
+        <!-- EditText for Note (optional) -->
+        <EditText
+            android:id="@+id/etNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Note (optional)"
+            android:inputType="text"
+            android:layout_marginTop="8dp"/>
+    </LinearLayout>
+</ScrollView>

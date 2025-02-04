@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SportsTracker</string>
+    <string name="set_favorite_team">Set Favorite Team</string>
+    <string name="add_match">Add Match</string>
+    <string name="team_a">Team A</string>
+    <string name="score_for_team_a">Score for Team A</string>
+    <string name="date_yyyy_mm_dd">Date (YYYY-MM-DD)</string>
+    <string name="score_for_team_b">Score for Team B</string>
+    <string name="team_b">Team B</string>
+    <string name="note">Note:</string>
+    <string name="delete_match">Delete Match</string>
+    <string name="note_optional">Note (optional)</string>
+</resources>
